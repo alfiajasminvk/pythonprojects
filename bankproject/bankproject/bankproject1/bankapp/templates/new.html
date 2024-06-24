@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>newpage</title>
+</head>
+<body>
+{% block content %}
+<form action="new" method="post"></form>
+{% csrf_token %}
+<p> Please fill your details with the following forum</p>
+<button type="submit"><a class="btn btn-warning" href="{% url 'getdata' %}">Application Form</a></button>
+</form>
+
+</body>
+{% endblock %}
+</html>

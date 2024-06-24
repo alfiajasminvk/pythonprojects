@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register page</title>
+</head>
+<body style="background-color:Moccasin;">
+{% block content %}
+<h1 style="color:Navy;text-align:center;">REGISTRATION FORM</h1>
+<div style="background-color:Thistle;text-align:center;">
+<form action="register" method="post">
+{% csrf_token %}
+<label>username  </label>
+      <input type="text" name="username" placeholder="Enter your username" required><br>
+    <label>password    </label>
+           <input type="password" name="password" placeholder="Enter your password" required><br>
+    <label>Re-type password  </label>
+           <input type="password" name="cpassword" placeholder="Confirm your password" required><br>
+    <button type="submit">REGISTER</button>
+</form>
+</div>
+{% for msg in messages %}
+<h4>{{msg}}</h4>
+{% endfor %}
+</body>
+{% endblock %}
+</html>
