@@ -1,0 +1,116 @@
+.body {
+     font-family:'Roboto' sans-serif ;
+}
+/****Navbar****/
+/**** Navbar ****/
+.nav-item {
+      letter-spacing: .2rem;
+      font-size: 14px;
+      text-transform: uppercase;
+  }
+  
+  .dropdown-menu {
+      background-color: #fff; /* Ensures the background color of the dropdown is white */
+      border: 1px solid #ccc; /* Adds a border for better visibility */
+  }
+  
+  .dropdown-item {
+      letter-spacing: .2rem;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #000; /* Ensures the text color is black for visibility */
+      padding: 10px 20px; /* Adds padding for better spacing */
+  }
+  
+  .dropdown-item:hover {
+      background-color: #f8f9fa; /* Light background on hover for visibility */
+      color: #000; /* Keeps the text color black on hover */
+  }
+  
+.my_footer{
+      background-color:#5cb85c;
+      height:60px;
+}
+.my_footer p{
+      padding-top:20px;
+      font-size:14px;
+}
+/****category page***/
+.my_row_class{
+      padding-top:15px;
+}
+.my_row_class.mx_auto{
+      color:#000;
+      font-size:12px;
+}
+.my_image{
+      width:100%;
+      height:auto;
+}
+.my_title{
+      letter-spacing:.2em;
+      text-transform:uppercase;
+      font-size:16px;
+}
+.my_image_padding{
+      padding:5px;
+}
+.my_bottom_margin{
+      margin-bottom:10px;
+}
+.card-body h4{
+      letter-spacing:.2em;
+      text-transform:uppercase;
+      font-size:14px;
+}
+/***product page***/
+.my_prod_row_class{
+      padding-top:15px;
+      padding-bottom:20px;
+}
+.my_prod_row_class .mx_auto{
+      color:#000;
+      font-size:12px;
+      text-decoration:none;
+}
+.my_prod_title{
+     font-size:16px;
+     letter-spacing:.2em;
+     text-transform:uppercase;
+     padding-top:15px;
+     padding-bottom:10px;
+}
+.my_prod_text{
+     padding:20px;
+}
+.my_image{
+     width:100%;
+     height:auto;
+}
+/***search page***/
+.my_search_text{
+     padding-top:20px;
+}
+/***cart page***/
+.my custom_table{
+     min-width:400px;
+     font-size:14px;
+}
+.my_custom_thead{
+     font-weight:normal;
+     text-transform:uppercase;
+     letter-spacing:.2em;
+     background-color:#f8f8fa!important;
+}
+.custom_a{
+     text-decoration:none;
+     color:#868e96!important;
+}
+.my_custom_button{
+     margin-top:5px;
+}
+
+
+
+
+
